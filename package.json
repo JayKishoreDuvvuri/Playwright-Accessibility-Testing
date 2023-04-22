@@ -1,0 +1,23 @@
+{
+  "name": "playwright-accessibility_testing",
+  "version": "1.0.0",
+  "description": "Accessibility Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:one": "npx playwright test TC_01_a11y.test.js",
+    "test:two": "npx playwright test TC_02_a11y.test.js"
+  },
+  "keywords": [
+    "Playwright",
+    "Accessibility",
+    "Automation",
+    "Testing"
+  ],
+  "author": "Jay Kishore Duvvuri",
+  "license": "ISC",
+  "dependencies": {
+    "@axe-core/playwright": "^4.6.1",
+    "@playwright/test": "^1.32.3"
+  }
+}
