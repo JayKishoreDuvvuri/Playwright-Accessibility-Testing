@@ -6,6 +6,6 @@ An example project demonstrating automation of playwright tests for accessibilit
 
 We are using https://broken-workshop.dequelabs.com/ and https://todomvc.com/examples/react/#/ as the Application Under Test. 
 
-- URL: https://www.saucedemo.com/ (AND) https://todomvc.com/examples/react/#/
+- URL: https://broken-workshop.dequelabs.com/ (AND) https://todomvc.com/examples/react/#/
 - OS : macOS 
 - IDE : Visual Studio Code
