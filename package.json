@@ -4,7 +4,7 @@
   "description": "Accessibility Testing",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
+    "test": "npx playwright test --reporter=html && npx playwright show-report",
     "test:one": "npx playwright test TC_01_a11y.test.js",
     "test:two": "npx playwright test TC_02_a11y.test.js"
   },
@@ -18,6 +18,6 @@
   "license": "ISC",
   "dependencies": {
     "@axe-core/playwright": "^4.6.1",
-    "@playwright/test": "^1.32.3"
+    "@playwright/test": "^1.49.0"
   }
 }

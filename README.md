@@ -5,13 +5,22 @@ An example project demonstrating automation of playwright tests for accessibilit
 
 #### Application Under Test
 
-We are using https://broken-workshop.dequelabs.com/ and https://todomvc.com/examples/react/#/ as the Application Under Test. 
+We are using https://broken-workshop.dequelabs.com/ and https://todomvc.com/examples/typescript-react/#/ as the Application Under Test. 
 
-- URL: https://broken-workshop.dequelabs.com/ (AND) https://todomvc.com/examples/react/#/
+- URL: https://broken-workshop.dequelabs.com/ (AND) https://todomvc.com/examples/typescript-react/#/
 - OS : macOS 
 - IDE : Visual Studio Code
 
+#### Clone the repository
+```bash
+git clone https://github.com/JayKishoreDuvvuri/Playwright-Accessibility-Testing.git
+```
 
+#### Install dependencies
+```bash
+npm install
+npx playwright install
+```
 
 #### Run Tests
 

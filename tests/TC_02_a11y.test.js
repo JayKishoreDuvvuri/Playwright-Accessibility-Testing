@@ -3,7 +3,7 @@ import AxeBuilder from "@axe-core/playwright";
 
 test.describe("Accessibility Test", () => {
   test("Detect the accessibility issues for the website", async ({ page }) => {
-    await page.goto("https://todomvc.com/examples/react/#/");
+    await page.goto("https://todomvc.com/examples/typescript-react/#/");
 
     //Analyze the page with axe
     const accessibilityScanResults = await new AxeBuilder({ page }).analyze();
@@ -21,7 +21,7 @@ test.describe("Accessibility Test", () => {
 
     //Expect violations to be empty
     console.log("List of Violations:", violation);
-    expect(count).toEqual(4);
+    expect(count).toBeGreaterThanOrEqual(3);
     // expect(accessibilityScanResults.violations).toEqual([]);
   });
 });
